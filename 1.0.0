@@ -1,0 +1,77 @@
+Collecting langchain-core
+  Using cached langchain_core-1.2.4-py3-none-any.whl.metadata (3.7 kB)
+Collecting jsonpatch<2.0.0,>=1.33.0 (from langchain-core)
+  Using cached jsonpatch-1.33-py2.py3-none-any.whl.metadata (3.0 kB)
+Collecting langsmith<1.0.0,>=0.3.45 (from langchain-core)
+  Using cached langsmith-0.5.0-py3-none-any.whl.metadata (15 kB)
+Requirement already satisfied: packaging<26.0.0,>=23.2.0 in c:\ollamalearning\.venv\lib\site-packages (from langchain-core) (25.0)
+Collecting pydantic<3.0.0,>=2.7.4 (from langchain-core)
+  Downloading pydantic-2.12.5-py3-none-any.whl.metadata (90 kB)
+Collecting pyyaml<7.0.0,>=5.3.0 (from langchain-core)
+  Downloading pyyaml-6.0.3-cp312-cp312-win_amd64.whl.metadata (2.4 kB)
+Collecting tenacity!=8.4.0,<10.0.0,>=8.1.0 (from langchain-core)
+  Using cached tenacity-9.1.2-py3-none-any.whl.metadata (1.2 kB)
+Collecting typing-extensions<5.0.0,>=4.7.0 (from langchain-core)
+  Using cached typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting uuid-utils<1.0,>=0.12.0 (from langchain-core)
+  Using cached uuid_utils-0.12.0-cp39-abi3-win_amd64.whl.metadata (1.1 kB)
+Collecting jsonpointer>=1.9 (from jsonpatch<2.0.0,>=1.33.0->langchain-core)
+  Using cached jsonpointer-3.0.0-py2.py3-none-any.whl.metadata (2.3 kB)
+Collecting httpx<1,>=0.23.0 (from langsmith<1.0.0,>=0.3.45->langchain-core)
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting orjson>=3.9.14 (from langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading orjson-3.11.5-cp312-cp312-win_amd64.whl.metadata (42 kB)
+Collecting requests-toolbelt>=1.0.0 (from langsmith<1.0.0,>=0.3.45->langchain-core)
+  Using cached requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting requests>=2.0.0 (from langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting zstandard>=0.23.0 (from langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading zstandard-0.25.0-cp312-cp312-win_amd64.whl.metadata (3.3 kB)
+Collecting anyio (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading anyio-4.12.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting certifi (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading certifi-2025.11.12-py3-none-any.whl.metadata (2.5 kB)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting idna (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<3.0.0,>=2.7.4->langchain-core)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.41.5 (from pydantic<3.0.0,>=2.7.4->langchain-core)
+  Downloading pydantic_core-2.41.5-cp312-cp312-win_amd64.whl.metadata (7.4 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic<3.0.0,>=2.7.4->langchain-core)
+  Downloading typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting charset_normalizer<4,>=2 (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading charset_normalizer-3.4.4-cp312-cp312-win_amd64.whl.metadata (38 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core)
+  Downloading urllib3-2.6.2-py3-none-any.whl.metadata (6.6 kB)
+Using cached langchain_core-1.2.4-py3-none-any.whl (477 kB)
+Using cached jsonpatch-1.33-py2.py3-none-any.whl (12 kB)
+Using cached langsmith-0.5.0-py3-none-any.whl (273 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading pydantic-2.12.5-py3-none-any.whl (463 kB)
+Downloading pydantic_core-2.41.5-cp312-cp312-win_amd64.whl (2.0 MB)
+   ---------------------------------------- 0.0/2.0 MB ? eta -:--:--   --------------- ------------------------ 0.8/2.0 MB 5.6 MB/s eta 0:00:01   ---------------------------------------- 2.0/2.0 MB 4.9 MB/s  0:00:00
+Downloading pyyaml-6.0.3-cp312-cp312-win_amd64.whl (154 kB)
+Using cached tenacity-9.1.2-py3-none-any.whl (28 kB)
+Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Using cached uuid_utils-0.12.0-cp39-abi3-win_amd64.whl (183 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Using cached jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB)
+Downloading orjson-3.11.5-cp312-cp312-win_amd64.whl (133 kB)
+Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+Downloading charset_normalizer-3.4.4-cp312-cp312-win_amd64.whl (107 kB)
+Downloading idna-3.11-py3-none-any.whl (71 kB)
+Downloading urllib3-2.6.2-py3-none-any.whl (131 kB)
+Downloading certifi-2025.11.12-py3-none-any.whl (159 kB)
+Using cached requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Downloading zstandard-0.25.0-cp312-cp312-win_amd64.whl (506 kB)
+Downloading anyio-4.12.0-py3-none-any.whl (113 kB)
+Installing collected packages: zstandard, uuid-utils, urllib3, typing-extensions, tenacity, pyyaml, orjson, jsonpointer, idna, h11, charset_normalizer, certifi, annotated-types, typing-inspection, requests, pydantic-core, jsonpatch, httpcore, anyio, requests-toolbelt, pydantic, httpx, langsmith, langchain-core
+   --- ------------------------------------  2/24 [urllib3]   --- ------------------------------------  2/24 [urllib3]   --- ------------------------------------  2/24 [urllib3]   --- ------------------------------------  2/24 [urllib3]   ------ ---------------------------------  4/24 [tenacity]   -------- -------------------------------  5/24 [pyyaml]   -------- -------------------------------  5/24 [pyyaml]   ----------- ----------------------------  7/24 [jsonpointer]   ------------- --------------------------  8/24 [idna]   --------------- ------------------------  9/24 [h11]   --------------- ------------------------  9/24 [h11]   ---------------- ----------------------- 10/24 [charset_normalizer]   ------------------ --------------------- 11/24 [certifi]   ----------------------- ---------------- 14/24 [requests]   ----------------------- ---------------- 14/24 [requests]   -------------------------- ------------- 16/24 [jsonpatch]   ---------------------------- ----------- 17/24 [httpcore]   ---------------------------- ----------- 17/24 [httpcore]   ------------------------------ --------- 18/24 [anyio]   ------------------------------ --------- 18/24 [anyio]   ------------------------------ --------- 18/24 [anyio]   ------------------------------ --------- 18/24 [anyio]   ------------------------------- -------- 19/24 [requests-toolbelt]   ------------------------------- -------- 19/24 [requests-toolbelt]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   --------------------------------- ------ 20/24 [pydantic]   ----------------------------------- ---- 21/24 [httpx]   ----------------------------------- ---- 21/24 [httpx]   ----------------------------------- ---- 21/24 [httpx]   ------------------------------------ --- 22/24 [langsmith]   ------------------------------------ --- 22/24 [langsmith]   ------------------------------------ --- 22/24 [langsmith]   ------------------------------------ --- 22/24 [langsmith]   ------------------------------------ --- 22/24 [langsmith]   ------------------------------------ --- 22/24 [langsmith]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   -------------------------------------- - 23/24 [langchain-core]   ---------------------------------------- 24/24 [langchain-core]
+Successfully installed annotated-types-0.7.0 anyio-4.12.0 certifi-2025.11.12 charset_normalizer-3.4.4 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.11 jsonpatch-1.33 jsonpointer-3.0.0 langchain-core-1.2.4 langsmith-0.5.0 orjson-3.11.5 pydantic-2.12.5 pydantic-core-2.41.5 pyyaml-6.0.3 requests-2.32.5 requests-toolbelt-1.0.0 tenacity-9.1.2 typing-extensions-4.15.0 typing-inspection-0.4.2 urllib3-2.6.2 uuid-utils-0.12.0 zstandard-0.25.0
