@@ -1,0 +1,13 @@
+langchain==1.2.3
+langchain-core==1.2.7
+langchain-community==0.4.1
+langchain-ollama==1.0.1
+yfinance==1.0
+beautifulsoup4==4.14.3
+requests==2.32.5
+selenium==4.39.0
+matplotlib==3.10.8
+pandas==2.3.3
+jupyter==1.1.1
+numpy==2.4.1
+python-dateutil==2.9.0.post0
